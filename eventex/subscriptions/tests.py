@@ -64,7 +64,7 @@ class SubscribePostTest(TestCase):
 
     def test_subscription_email_to(self):
         email = mail.outbox[0]
-        expect = ['contato@eventex.com.br', 'jasiel_serra@hotmail.com']
+        expect = ['jasiel_serra@hotmail.com']
 
         self.assertEqual(expect, email.to)
 
