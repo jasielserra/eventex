@@ -1,6 +1,6 @@
 # Eventex
 
-Sistema de Eventos.
+Sistema de Eventos encomendado pela Morena.
 
 [![Build Status](https://travis-ci.org/jasielserra/eventex.svg?branch=master)](https://travis-ci.org/jasielserra/eventex)
 [![Code Climate](https://codeclimate.com/repos/56944a99edd41f005200572b/badges/7d78b013ab2b2fc2c7d5/gpa.svg)](https://codeclimate.com/repos/56944a99edd41f005200572b/feed)
@@ -13,7 +13,7 @@ Sistema de Eventos.
 2. Crie um virtualenv com Python 3.5
 3. Ative o virtualenv
 4. Instale as dependências
-5. Configure a instnância com o .env
+5. Configure a instância com o .env
 6. Execute os testes.
 
 ```console
