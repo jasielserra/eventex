@@ -1,0 +1,1585 @@
+@font-face {
+    font-family: klavikabold;
+    src: url(css/fonts/klavika-bold-webfont.eot);
+    src: url(css/fonts/klavika-bold-webfont.eot?#iefix) format('embedded-opentype'),url(css/fonts/klavika-bold-webfont.woff) format('woff'),url(css/fonts/klavika-bold-webfont.ttf) format('truetype'),url(css/fonts/klavika-bold-webfont.svg#klavikabold) format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family:klavikalight;src:url(css/fonts/klavika-light-webfont.eot);src:url(css/fonts/klavika-light-webfont.eot?#iefix) format('embedded-opentype'),url(css/fonts/klavika-light-webfont.woff) format('woff'),url(css/fonts/klavika-light-webfont.ttf) format('truetype'),url(css/fonts/klavika-light-webfont.svg#klavikalight) format('svg');font-weight:400;font-style:normal;
+}
+
+@font-face {
+    font-family:klavikamedium;src:url(css/fonts/klavika-medium-webfont.eot);src:url(css/fonts/klavika-medium-webfont.eot?#iefix) format('embedded-opentype'),url(css/fonts/klavika-medium-webfont.woff) format('woff'),url(css/fonts/klavika-medium-webfont.ttf) format('truetype'),url(css/fonts/klavika-medium-webfont.svg#klavikamedium) format('svg');font-weight:400;font-style:normal;
+}
+
+@font-face {
+    font-family:klavikaregular;src:url(css/fonts/klavika-regular-webfont.eot);src:url(css/fonts/klavika-regular-webfont.eot?#iefix) format('embedded-opentype'),url(css/fonts/klavika-regular-webfont.woff) format('woff'),url(css/fonts/klavika-regular-webfont.ttf) format('truetype'),url(css/fonts/klavika-regular-webfont.svg#klavikaregular) format('svg');font-weight:400;font-style:normal;
+}
+
+.app-banners {
+    position: relative;
+}
+
+.shoptime-bannerStyle1 {
+    float: left;
+    margin: 0 11px;
+    font-family: klavikaregular;
+    width: 311px;
+    height: 126px;
+    background: #4a509c;
+}
+
+.x01 .shoptime-bannerStyle1 {
+    margin-bottom: 5px;
+}
+
+.shoptime-bannerStyle1 a {
+    color: #fff!important;
+    width: 311px;
+    height: 126px;
+}
+
+.shoptime-bannerStyle1 a::after {
+    content: ' ';
+    display: block;
+    width: 31px;
+    height: 54px;
+    background: url(img/shop/aba.png) no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.shoptime-bannerStyle1 .image {
+    position: absolute;
+    top: 14px;
+    right: 24px;
+}
+.hideimage .image{
+    display: none;
+}
+
+.shoptime-bannerStyle1 .image img {
+    width: 100px;
+}
+
+.shoptime-bannerStyle1 .information {
+    width: 166px;
+    position: absolute;
+    top: 3px;
+    left: 12px;
+}
+
+.shoptime-bannerStyle1 .information .name {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+}
+
+.shoptime-bannerStyle1 .information .subtitle {
+    font-size: 12px;
+    text-align: left;
+    font-family: klavikaregular;
+    font-style: italic;
+}
+
+.shoptime-bannerStyle1 .price {
+    width: auto;
+    position: absolute;
+    top: 75px;
+    left: 12px;
+}
+
+.shoptime-bannerStyle1 .defaultPrice,.shoptime-bannerStyle1 .parcel,.shoptime-bannerStyle1 .priceInvoice .prefix,.shoptime-bannerStyle1 .salePrice {
+    display: none;
+}
+
+.shoptime-bannerStyle1 .priceInvoice {
+    padding-right: 22px;
+}
+
+.shoptime-bannerStyle1 .priceInvoice .moeda {
+    text-transform: uppercase;
+    font-size: 16px;
+    position: relative;
+    top: 0;
+    font-family: klavikabold;
+}
+
+.shoptime-bannerStyle1 .priceInvoice .unidade {
+    font-size: 36px;
+    letter-spacing: 0;
+    font-family: klavikabold;
+}
+
+.shoptime-bannerStyle1 .priceInvoice .decimal {
+    font-size: 14px;
+    position: relative;
+    top: -12px;
+    font-family: klavikabold;
+}
+
+.shoptime-bannerStyle1 .priceInvoice .text {
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+}
+
+.shoptime-bannerStyle2 {
+    font-family: klavikaregular;
+    width: 499px;
+    height: 262px;
+    background: #987;
+}
+
+.shoptime-bannerStyle2 a {
+    color: #33386a!important;
+    width: 499px;
+    height: 262px;
+}
+
+.shoptime-bannerStyle2 .image {
+    position: absolute;
+    top: 6px;
+    left: 15px;
+}
+
+.shoptime-bannerStyle2 .information {
+    width: 218px;
+    position: absolute;
+    top: 11px;
+    right: 0;
+}
+
+.shoptime-bannerStyle2 .information .name {
+    font-size: 20px;
+    text-align: left;
+    font-family: klavikaregular;
+}
+
+.shoptime-bannerStyle2 .information .subtitle {
+    font-size: 12px;
+    text-align: left;
+    font-family: klavikaregular;
+    font-style: italic;
+}
+
+.shoptime-bannerStyle2 .price {
+    width: 218px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    text-align: left;
+}
+
+.shoptime-bannerStyle2 .freight {
+    padding-top: 10px;
+}
+
+.shoptime-bannerStyle2 .defaultPrice {
+    display: none;
+}
+
+.shoptime-bannerStyle2 .priceInvoice {
+    height: 57px;
+    position: relative;
+}
+
+.shoptime-bannerStyle2 .priceInvoice .moeda,.shoptime-bannerStyle2 .priceInvoice .prefix {
+    text-transform: uppercase;
+    font-size: 16px;
+    position: relative;
+    top: -22px;
+}
+
+.shoptime-bannerStyle2 .priceInvoice .unidade {
+    font-size: 50px;
+    letter-spacing: 0;
+    font-family: klavikabold;
+}
+
+.shoptime-bannerStyle2 .priceInvoice .decimal {
+    font-size: 24px;
+    position: relative;
+    top: -16px;
+    font-family: klavikabold;
+}
+
+.shoptime-bannerStyle2 .priceInvoice .text {
+    position: relative;
+    left: -28px;
+}
+
+.shoptime-bannerStyle2 .salePrice {
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.shoptime-bannerStyle2 .parcel .moeda,.shoptime-bannerStyle2 .parcel .prefix {
+    font-size: 16px;
+    position: relative;
+    top: -12px;
+}
+
+.shoptime-bannerStyle2 .parcel .decimal,.shoptime-bannerStyle2 .parcel .parcelas,.shoptime-bannerStyle2 .parcel .unidade {
+    font-size: 36px;
+    font-family: klavikabold;
+}
+
+.shoptime-bannerStyle2 .parcel .decimal,.shoptime-bannerStyle2 .parcel .unidade {
+    font-family: klavikaregular;
+}
+
+.shoptime-bannerStyle2 .inovice_price_off .salePrice {
+    display: none;
+}
+
+.shoptime-bannerStyle3 {
+    font-family: klavikaregular;
+    width: 320px;
+    height: 170px;
+    background-position: left top;
+}
+
+.shoptime-bannerStyle3 a {
+    color: #fff!important;
+    width: 320px;
+    height: 170px;
+}
+
+.shoptime-bannerStyle3 a::after {
+    content: ' ';
+    display: block;
+    width: 31px;
+    height: 54px;
+    background: url(img/shop/aba.png) no-repeat;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.shoptime-bannerStyle3 .image {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.shoptime-bannerStyle3 .information {
+    width: 124px;
+    position: absolute;
+    top: 34px;
+    right: 12px;
+}
+
+.shoptime-bannerStyle3 .information .name {
+    font-size: 17px;
+    line-height: 19px;
+    font-family: klavikaregular;
+}
+
+.shoptime-bannerStyle3 .information .subtitle {
+    font-size: 12px;
+    text-align: left;
+    font-family: klavikaregular;
+    padding-top: 5px;
+    font-style: italic;
+}
+
+.shoptime-bannerStyle3 .price {
+    width: auto;
+    position: absolute;
+    top: 127px;
+    right: 12px;
+    padding-right: 26px;
+}
+
+.shoptime-bannerStyle3 .defaultPrice,.shoptime-bannerStyle3 .parcel,.shoptime-bannerStyle3 .salePrice {
+    display: none;
+}
+
+.shoptime-bannerStyle3 .priceInvoice .moeda,.shoptime-bannerStyle3 .priceInvoice .prefix {
+    text-transform: uppercase;
+    font-size: 9px;
+    position: relative;
+    top: -12px;
+}
+
+.shoptime-bannerStyle3 .priceInvoice .unidade {
+    font-size: 27px;
+    letter-spacing: 0;
+    font-family: klavikabold;
+}
+
+.shoptime-bannerStyle3 .priceInvoice .decimal {
+    font-size: 14px;
+    position: relative;
+    top: -9px;
+    font-family: klavikabold;
+}
+
+.shoptime-bannerStyle3 .priceInvoice .parcel {
+    position: relative;
+}
+
+.shoptime-bannerStyle3 .priceInvoice .text {
+    position: absolute;
+    right: 0;
+    bottom: 4px;
+}
+
+.shoptime-bannerStyle4 {
+    font-family: klavikaregular;
+    width: 1004px;
+    height: 315px;
+    background-position: left top;
+}
+
+.shoptime-bannerStyle4 a {
+    width: 1004px;
+    height: 315px;
+    color: #fae8d6!important;
+}
+
+.shoptime-bannerStyle4 .seal_km {
+    width: 111px;
+    height: 14px;
+    position: absolute;
+    top: 140px;
+    right: 0;
+    background: url(http://apps.shoptime.com.br/media/global/jquery.banners/img/shop/tag_km.png);
+}
+
+.shoptime-bannerStyle4 .seal_km span {
+    position: absolute;
+    bottom: 0;
+    right: 4px;
+    color: #fff;
+    font-size: 11px;
+    width: 65px;
+    text-align: center;
+}
+
+.shoptime-bannerStyle4 .information {
+    width: 364px;
+    position: absolute;
+    top: 30px;
+    right: 16px;
+}
+
+.shoptime-bannerStyle4 .information .name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.shoptime-bannerStyle4 .information .subtitle {
+    font-size: 15px;
+    text-align: left;
+    font-family: klavikalight;
+    font-style: italic;
+}
+
+.shoptime-bannerStyle4 .price {
+    width: 364px;
+    position: absolute;
+    top: 155px;
+    right: 16px;
+}
+
+.shoptime-bannerStyle4 .defaultPrice {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+.shoptime-bannerStyle4 .priceInvoice {
+    height: 57px;
+    position: relative;
+    margin-top: -7px;
+}
+
+.shoptime-bannerStyle4 .priceInvoice .moeda,.shoptime-bannerStyle4 .priceInvoice .prefix {
+    text-transform: uppercase;
+    font-size: 18px;
+    position: relative;
+    top: -25px;
+}
+
+.shoptime-bannerStyle4 .priceInvoice .unidade {
+    font-size: 58px;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+
+.shoptime-bannerStyle4 .priceInvoice .decimal {
+    font-size: 30px;
+    position: relative;
+    top: -24px;
+    font-weight: 700;
+}
+
+.shoptime-bannerStyle4 .priceInvoice .text {
+    position: relative;
+    left: -28px;
+    font-size: 12px;
+}
+
+.shoptime-bannerStyle4 .salePrice {
+    font-size: 13px;
+    padding-top: 5px;
+    margin-bottom: 4px;
+}
+
+.shoptime-bannerStyle4 .parcel .moeda,.shoptime-bannerStyle4 .parcel .prefix {
+    font-size: 20px;
+    position: relative;
+    top: -16px;
+}
+
+.shoptime-bannerStyle4 .parcel .decimal,.shoptime-bannerStyle4 .parcel .parcelas,.shoptime-bannerStyle4 .parcel .unidade {
+    font-size: 40px;
+}
+
+.shoptime-bannerStyle4 .parcel .parcelas {
+    text-transform: uppercase;
+}
+
+.shoptime-bannerStyle4 .parcel .decimal,.shoptime-bannerStyle4 .parcel .unidade {
+    font-size: 44px;
+}
+
+.shoptime-bannerStyle4 .parcel .text {
+    font-size: 12px;
+}
+
+.shoptime-bannerStyle4 .inovice_price_off .salePrice {
+    display: none;
+}
+
+.shoptime-bannerStyle5 {
+    font-family: klavikaregular;
+    width: 1004px;
+    height: 315px;
+    background: url(http://img.shoptime.com.br/hotsites/novo-destaque/destaque_loja_bg.jpg) no-repeat left top!important;
+}
+
+.shoptime-bannerStyle5 a {
+    width: 1004px;
+    height: 315px;
+    color: #666!important;
+}
+
+.shoptime-bannerStyle5 .image {
+    position: absolute;
+    top: 20px;
+    left: 236px;
+}
+
+.shoptime-bannerStyle5 .information {
+    width: 364px;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+}
+
+.shoptime-bannerStyle5 .information .name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.shoptime-bannerStyle5 .information .subtitle {
+    font-size: 15px;
+    text-align: left;
+    font-family: klavikalight;
+    font-style: italic;
+}
+
+.shoptime-bannerStyle5 .information .freight {
+    display: inline-block;
+    margin-right: 7px;
+    margin-top: 24px;
+    float: left;
+}
+
+.shoptime-bannerStyle5 .price {
+    width: 364px;
+    position: absolute;
+    top: 145px;
+    right: 100px;
+}
+
+.shoptime-bannerStyle5 .defaultPrice {
+    text-transform: capitalize;
+    float: left;
+    font-size: 12px;
+    padding-top: 19px;
+    margin-right: 20px;
+}
+
+.shoptime-bannerStyle5 .priceInvoice {
+    font-size: 32px;
+    float: left;
+}
+
+.shoptime-bannerStyle5 .priceInvoice .decimal,.shoptime-bannerStyle5 .priceInvoice .moeda,.shoptime-bannerStyle5 .priceInvoice .unidade {
+    color: #ff9c5a;
+    font-weight: 700;
+}
+
+.shoptime-bannerStyle5 .priceInvoice .prefix,.shoptime-bannerStyle5 .priceInvoice .text {
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.shoptime-bannerStyle5 .parcel {
+    clear: both;
+    color: #ff9c5a;
+    padding-top: 18px;
+}
+
+.shoptime-bannerStyle5 .parcel .parcelas {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.shoptime-bannerStyle5 .parcel .decimal,.shoptime-bannerStyle5 .parcel .moeda,.shoptime-bannerStyle5 .parcel .unidade {
+    font-size: 18px;
+}
+
+.shoptime-bannerStyle5 .parcel .text {
+    font-size: 14px;
+}
+
+.shoptime-bannerStyle5 .inovice_price_off .salePrice,.shoptime-bannerStyle5 .parcel .prefix,.shoptime-bannerStyle5 .salePrice {
+    display: none;
+}
+
+.shoptime-bannerStyle5 .seal_km {
+    background: url(http://apps.shoptime.com.br/media/global/jquery.banners/img/shop/tag_km.png);
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    position: relative;
+    text-align: center;
+    margin-top: 24px;
+    float: left;
+    width: 150px;
+}
+
+.shoptime-bannerStyle5 .seal_km span {
+    color: #FFF;
+    font-size: 10px;
+    position: relative;
+    top: 1px;
+}
+
+.tpl5-full {
+    background: url(http://img.shoptime.com.br/mktshop/home/tv/banner_barratv.jpg) no-repeat left top!important;
+}
+
+.tpl5-full .image {
+    left: 206px;
+}
+
+.tpl5-full .information,.tpl5-full .price {
+    right: 130px;
+}
+
+.shoptime-bannerStyle6 {
+    font-family: 'trebuchet ms';
+    width: 384px;
+    height: 286px;
+    text-align: left;
+}
+
+.shoptime-bannerStyle6 .video {
+    width: 384px;
+    height: 228px;
+    position: absolute;
+    top: 0;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.shoptime-bannerStyle6 .information {
+    width: 300px;
+    height: 64px;
+    padding: 2px 72px 0 12px;
+    background: #3b393a;
+    position: absolute;
+    bottom: 0;
+}
+
+.shoptime-bannerStyle6 .information .name {
+    color: #f9f0e1;
+    font-size: 13px;
+    width: 200px;
+    padding-top: 5px;
+}
+
+.shoptime-bannerStyle6 .price {
+    position: absolute;
+    bottom: 21px;
+    right: 10px;
+}
+
+.shoptime-bannerStyle6 .btn-compreagora {
+    background: url(http://apps.shoptime.com.br/media/global/jquery.banners/img/shop/btn-comprar.png);
+    height: 25px;
+    width: 149px;
+    z-index: 9;
+}
+
+.shoptime-bannerStyle6 .price .defaultPrice,.shoptime-bannerStyle6 .price .parcel,.shoptime-bannerStyle6 .price .parcel .prefix,.shoptime-bannerStyle6 .price .priceInvoice,.shoptime-bannerStyle6 .price .salePrice {
+    display: none;
+}
+
+.shoptime-bannerStyle7 {
+    font-family: klavikaregular;
+    width: 1004px;
+    height: 315px;
+    background: #f5ab1d!important;
+}
+
+.tpl7-full {
+    overflow: hidden;
+}
+
+.shoptime-bannerStyle7 a {
+    width: 1004px;
+    height: 315px;
+    color: #fff!important;
+}
+
+.shoptime-bannerStyle7 .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1004px;
+    height: 315px;
+    background: #fff;
+}
+
+.shoptime-bannerStyle7 .image .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1004px;
+    height: 315px;
+    background: url(http://apps.shoptime.com.br/media/global/jquery.banners/img/shop/shop-tpl-7.png) no-repeat;
+    z-index: 2;
+}
+
+.shoptime-bannerStyle7 .image img {
+    position: absolute;
+    top: 30px;
+    left: 222px;
+    width: 260px;
+}
+
+.shoptime-bannerStyle7 .information {
+    width: 364px;
+    position: absolute;
+    top: 30px;
+    right: 16px;
+    z-index: 9;
+}
+
+.shoptime-bannerStyle7 .information .name {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.shoptime-bannerStyle7 .information .subtitle {
+    font-size: 15px;
+    text-align: left;
+    font-family: klavikalight;
+    font-style: italic;
+}
+
+.shoptime-bannerStyle7 .price {
+    width: 364px;
+    position: absolute;
+    top: 155px;
+    right: 16px;
+    z-index: 9;
+}
+
+.shoptime-bannerStyle7 .defaultPrice {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.shoptime-bannerStyle7 .priceInvoice {
+    height: 57px;
+    position: relative;
+    margin-top: -7px;
+}
+
+.shoptime-bannerStyle7 .priceInvoice .moeda,.shoptime-bannerStyle7 .priceInvoice .prefix {
+    text-transform: uppercase;
+    font-size: 25px;
+    position: relative;
+}
+
+.shoptime-bannerStyle7 .priceInvoice .unidade {
+    font-size: 51px;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+
+.shoptime-bannerStyle7 .priceInvoice .decimal {
+    font-size: 28px;
+    position: relative;
+    top: -20px;
+    font-weight: 700;
+}
+
+.shoptime-bannerStyle7 .priceInvoice .text {
+    position: relative;
+    left: -28px;
+    font-size: 14px;
+}
+
+.shoptime-bannerStyle7 .salePrice {
+    font-size: 13px;
+    padding-top: 5px;
+    margin-bottom: 4px;
+}
+
+.shoptime-bannerStyle7 .parcel .moeda,.shoptime-bannerStyle7 .parcel .prefix {
+    font-size: 24px;
+    position: relative;
+}
+
+.shoptime-bannerStyle7 .parcel .decimal,.shoptime-bannerStyle7 .parcel .parcelas,.shoptime-bannerStyle7 .parcel .unidade {
+    font-size: 36px;
+}
+
+.shoptime-bannerStyle7 .parcel .parcelas {
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.shoptime-bannerStyle7 .parcel .moeda {
+    margin-right: 10px;
+}
+
+.shoptime-bannerStyle7 .parcel .decimal,.shoptime-bannerStyle7 .parcel .unidade {
+    font-size: 32px;
+}
+
+.shoptime-bannerStyle7 .parcel .text {
+    font-size: 14px;
+}
+
+.shoptime-bannerStyle7 .inovice_price_off .salePrice,.shoptime-bannerStyle7 .price .salePrice {
+    display: none;
+}
+
+/*.shoptime-bannerStyle8 {
+    font-family: klavikaregular;
+    width: 1004px;
+    height: 315px;
+    background: url(http://apps.shoptime.com.br/media/global/jquery.banners/img/shop/shop-tpl-8.jpg) no-repeat!important;
+}
+
+.shoptime-bannerStyle8 a {
+    width: 1004px;
+    height: 315px;
+    color: #fff!important;
+}
+
+.shoptime-bannerStyle8 .image {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    height: 315px;
+}
+
+.shoptime-bannerStyle8 .image img {
+    position: absolute;
+    height: 315px;
+}
+
+.tpl7-full .image img {
+    position: absolute;
+    top: -40px;
+    left: 157px;
+    width: 395px;
+}
+
+.shoptime-bannerStyle8 .information {
+    width: 364px;
+    position: absolute;
+    top: 25px;
+    right: 16px;
+    z-index: 9;
+}
+
+.shoptime-bannerStyle8 .information .name {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.shoptime-bannerStyle8 .information .subtitle {
+    font-size: 15px;
+    text-align: left;
+    font-family: klavikalight;
+    font-style: italic;
+}
+
+.shoptime-bannerStyle8 .price {
+    width: 364px;
+    position: absolute;
+    top: 115px;
+    right: 16px;
+    z-index: 9;
+}
+
+.shoptime-bannerStyle8 .defaultPrice {
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 0;
+}
+
+.shoptime-bannerStyle8 .defaultPrice::before {
+    display: block;
+    content: '|';
+    font-size: 50px;
+    transform: rotate(-64deg);
+    -ms-transform: rotate(-64deg);
+    -webkit-transform: rotate(-64deg);
+    position: absolute;
+    top: -16px;
+    left: 70px;
+    color: #d8312e;
+}
+
+.shoptime-bannerStyle8 .defaultPrice::after {
+    display: block;
+    content: '|';
+    font-size: 50px;
+    transform: rotate(64deg);
+    -ms-transform: rotate(64deg);
+    -webkit-transform: rotate(64deg);
+    position: absolute;
+    top: -16px;
+    left: 70px;
+    color: #d8312e;
+}
+
+.shoptime-bannerStyle8 .defaultPrice .unidade {
+    font-size: 27px;
+}
+
+.shoptime-bannerStyle8 .defaultPrice .decimal {
+    font-size: 14px;
+    position: relative;
+    top: -8px;
+}
+
+.shoptime-bannerStyle8 .priceInvoice {
+    height: 74px;
+    position: relative;
+    margin-top: -17px;
+    color: #ff915a;
+}
+
+.shoptime-bannerStyle8 .priceInvoice .moeda,.shoptime-bannerStyle8 .priceInvoice .prefix {
+    text-transform: uppercase;
+    font-size: 20px;
+    position: relative;
+    top: -30px;
+}
+
+.shoptime-bannerStyle8 .priceInvoice .unidade {
+    font-size: 71px;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+
+.shoptime-bannerStyle8 .priceInvoice .decimal {
+    font-size: 38px;
+    position: relative;
+    top: -20px;
+    font-weight: 700;
+}
+
+.shoptime-bannerStyle8 .priceInvoice .text {
+    position: relative;
+    left: -28px;
+    font-size: 14px;
+}
+
+.shoptime-bannerStyle8 .salePrice {
+    font-size: 13px;
+    padding-top: 5px;
+    margin-bottom: 4px;
+}
+
+.shoptime-bannerStyle8 .parcel .moeda,.shoptime-bannerStyle8 .parcel .prefix {
+    font-size: 24px;
+    position: relative;
+    top: -17px;
+}
+
+.shoptime-bannerStyle8 .parcel .parcelas {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 49px;
+}
+
+.shoptime-bannerStyle8 .parcel .moeda {
+    margin-right: 10px;
+}
+
+.shoptime-bannerStyle8 .parcel .decimal,.shoptime-bannerStyle8 .parcel .unidade {
+    font-size: 49px;
+    font-weight: 700;
+}
+
+.shoptime-bannerStyle8 .parcel .text {
+    font-size: 14px;
+}
+*/
+.shoptime-bannerStyle9 {
+    font-family: klavikaregular;
+}
+
+.shoptime-bannerStyle9 a {
+    color: #33386a!important;
+    width: 250px;
+    height: 488px;
+    position: relative;
+}
+
+.shoptime-bannerStyle9 .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shoptime-bannerStyle9 .image img {
+    width: 100%;
+}
+
+.shoptime-bannerStyle9 .information {
+    position: absolute;
+    top: 265px;
+    left: 0;
+}
+
+.shoptime-bannerStyle9 .information .name {
+    font-size: 18px;
+    text-align: left;
+    font-family: klavikaregular;
+    font-weight: 700;
+    height: 48px;
+    overflow: hidden;
+}
+
+.shoptime-bannerStyle9 .information .subtitle {
+    font-size: 12px;
+    text-align: left;
+    font-family: klavikaregular;
+    font-style: italic;
+}
+
+.shoptime-bannerStyle9 .price {
+    position: absolute;
+    top: 321px;
+    left: 0;
+    text-align: left;
+}
+
+.shoptime-bannerStyle9 .freight {
+    padding-top: 10px;
+}
+
+.shoptime-bannerStyle9 .defaultPrice {
+    color: #7e7e7e;
+}
+
+.shoptime-bannerStyle9 .defaultPrice .prefix {
+    text-transform: capitalize;
+}
+
+.shoptime-bannerStyle9 .defaultPrice::before {
+    content: 'SÃ“ HOJE';
+    position: absolute;
+    top: 15px;
+    font-size: 20px;
+    color: #33386a;
+}
+
+.shoptime-bannerStyle9 .priceInvoice {
+    height: 57px;
+    position: relative;
+    top: 20px;
+}
+
+.shoptime-bannerStyle9 .priceInvoice .moeda {
+    text-transform: uppercase;
+    font-size: 16px;
+    position: relative;
+}
+
+.shoptime-bannerStyle9 .priceInvoice .unidade {
+    font-size: 40px;
+    letter-spacing: 0;
+    font-family: klavikabold;
+}
+
+.shoptime-bannerStyle9 .priceInvoice .decimal {
+    font-size: 20px;
+    position: relative;
+    top: -16px;
+    font-family: klavikabold;
+}
+
+.shoptime-bannerStyle9 .priceInvoice .text {
+    position: relative;
+    left: -28px;
+    color: #7e7e7e;
+}
+
+.shoptime-bannerStyle9 .salePrice {
+    font-size: 13px;
+    position: relative;
+    top: 15px;
+    color: #7e7e7e;
+}
+
+.shoptime-bannerStyle9 .parcel {
+    color: #7e7e7e;
+    font-size: 13px;
+    position: relative;
+    top: 15px;
+}
+
+.shoptime-bannerStyle9 .btn-compreagora {
+    width: 115px;
+    height: 29px;
+    background: url(http://img.shoptime.com.br/imagens/loucura-dia/img/sprite-loucura-dia1.png) -410px 1px!important;
+    z-index: 9;
+    position: relative;
+    top: 20px;
+}
+
+.tpl9-col2 {
+    float: left;
+    padding: 0 30px;
+    border-left: #f0eced solid 1px;
+}
+
+.tpl9-col2.first-child {
+    padding-left: 0;
+    border-left: none;
+}
+
+.tpl9-col2-header a {
+    height: 338px;
+}
+
+.tpl9-col2-header .information {
+    top: 0;
+}
+
+.tpl9-col2-header .image {
+    top: 56px;
+}
+
+.tpl9-col3 {
+    float: left;
+    padding: 0 17px;
+    border-left: #f0eced solid 1px;
+}
+
+.tpl9-col3.first-child {
+    padding-left: 0;
+    border-left: none;
+}
+
+.tpl9-col3 a {
+    width: 192px;
+    height: 448px;
+}
+
+.tpl9-col3 .information {
+    top: 205px;
+}
+
+.tpl9-col3 .price {
+    top: 261px;
+}
+
+.tpl9-col4 {
+    float: left;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+.tpl9-col4 a {
+    height: 438px;
+}
+
+.tpl9-col4 .price {
+    top: 314px;
+}
+
+.tpl9-col4 .price .priceInvoice::before {
+    content: 'SÃ“ HOJE';
+    position: absolute;
+    top: -18px;
+    font-size: 20px;
+    color: #33386a;
+}
+
+.shoptime-bannerStyle9 .inovice_price_off .salePrice,.shoptime-bannerStyle9 .parcel .prefix .ou,.shoptime-bannerStyle9 .priceInvoice .prefix,.tpl9-col2-header .defaultPrice,.tpl9-col2-header .price,.tpl9-col4 .price .defaultPrice,.tpl9-col4 .price .parcel,.tpl9-col4 .price .salePrice {
+    display: none;
+}
+
+.loucura-2col {
+    width: 600px;
+    clear: both;
+}
+
+.shoptime-bannerStyle10 {
+    font-family: klavikaregular;
+}
+
+.shoptime-bannerStyle10 a {
+    color: #fff!important;
+    width: 120px;
+    height: 290px;
+    position: relative;
+    background: #ff9c59;
+}
+
+.shoptime-bannerStyle10 .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.shoptime-bannerStyle10 .image img {
+    width: 100%;
+}
+
+.shoptime-bannerStyle10 .information {
+    position: absolute;
+    top: 131px;
+    left: 10px;
+    width: 100px;
+}
+
+.shoptime-bannerStyle10 .information .name {
+    font-size: 15px;
+    text-align: left;
+    font-family: klavikaregular;
+    font-weight: 700;
+    height: 74px;
+    overflow: hidden;
+    color: #f9f6ee;
+}
+
+.shoptime-bannerStyle10 .information .subtitle {
+    font-size: 12px;
+    text-align: left;
+    font-family: klavikaregular;
+    font-style: italic;
+}
+
+.shoptime-bannerStyle10 .price {
+    position: absolute;
+    top: 211px;
+    left: 5px;
+    width: 110px;
+    text-align: left;
+}
+
+.shoptime-bannerStyle10 .defaultPrice {
+    margin-bottom: 5px;
+}
+
+.shoptime-bannerStyle10 .defaultPrice .prefix {
+    text-transform: uppercase;
+}
+
+.shoptime-bannerStyle10 .priceInvoice {
+    height: 57px;
+    position: relative;
+}
+
+.shoptime-bannerStyle10 .priceInvoice .prefix {
+    text-transform: uppercase;
+}
+
+.shoptime-bannerStyle10 .priceInvoice .moeda {
+    text-transform: uppercase;
+    font-size: 16px;
+    position: relative;
+}
+
+.shoptime-bannerStyle10 .priceInvoice .unidade {
+    font-size: 20px;
+    letter-spacing: 0;
+    font-family: klavikabold;
+}
+
+.shoptime-bannerStyle10 .priceInvoice .decimal {
+    font-size: 12px;
+    position: relative;
+    top: -8px;
+    font-family: klavikabold;
+}
+
+.shoptime-bannerStyle10 .priceInvoice .text {
+    position: absolute;
+    width: 40px;
+    left: 76px;
+    top: 12px;
+    font-size: 8px;
+    color: #fff;
+}
+
+.shoptime-bannerStyle10 .salePrice {
+    font-size: 13px;
+    position: relative;
+    top: 29px;
+    color: #7e7e7e;
+}
+
+.shoptime-bannerStyle10 .parcel {
+    position: relative;
+    top: -28px;
+    font-size: 9px;
+    color: #fff;
+}
+
+.shoptime-bannerStyle10 .parcel .parcelas {
+    font-size: 14px;
+}
+
+.shoptime-bannerStyle10 .parcel .decimal,.shoptime-bannerStyle10 .parcel .unidade {
+    font-size: 11px;
+}
+
+.shoptime-bannerStyle10 .btn-compreagora {
+    width: 115px;
+    height: 29px;
+    background: url(http://img.shoptime.com.br/imagens/loucura-dia/img/sprite-loucura-dia1.png) -410px 0!important;
+    z-index: 9;
+    position: relative;
+    top: 20px;
+}
+
+.shoptime-bannerStyle10 .salePrice {
+    display: none;
+}
+
+.clear {
+    clear: both;
+}
+.shoptime-bannerStyle8 {
+    font-family: klavikaregular;
+    width: 1004px;
+    height: 315px;
+    background: url(http://ishop.s8.com.br/mktshop/cybermonday_2014/v10/img/bg-banner-principal.jpg) #693c91 no-repeat left top!important ;
+}
+
+.shoptime-bannerStyle8 a {
+    width: 1004px;
+    height: 315px;
+    color: #666!important;
+}
+
+.shoptime-bannerStyle8 .image {
+    position: absolute;
+    top: 45px;
+    left: 275px;
+}
+
+.shoptime-bannerStyle8 .information {
+    width: 364px;
+    position: absolute;
+    top: 30px;
+    right: 90px;
+}
+
+.shoptime-bannerStyle8 .information .name {
+    font-size: 2.1em;
+    color:#faf0e1;
+}
+
+.shoptime-bannerStyle8 .information .subtitle {
+    font-size: 15px;
+    text-align: left;
+    font-family: klavikalight;
+    font-style: italic;
+}
+
+.shoptime-bannerStyle8 .information .freight {
+    display: inline-block;
+    margin-right: 7px;
+    margin-top: 24px;
+    float: left;
+}
+
+.shoptime-bannerStyle8 .price {
+    width: 364px;
+    position: absolute;
+    top: 145px;
+    right: 90px;
+}
+
+.shoptime-bannerStyle8 .defaultPrice {
+    text-transform: capitalize;
+    float: left;
+    font-size: 12px;
+    padding-top: 19px;
+    margin-right: 20px;
+    color: #faf0e1;
+}
+
+.shoptime-bannerStyle8 .priceInvoice {
+    font-size: 1.1em;
+    float: left;
+    color: #faf0e1;
+}
+
+.shoptime-bannerStyle8 .priceInvoice .decimal,.shoptime-bannerStyle8 .priceInvoice .moeda,.shoptime-bannerStyle8 .priceInvoice .unidade {
+    color: #faf0e1;
+    font-size: 3.1em;
+    font-weight: 700;
+}
+
+.shoptime-bannerStyle8 .priceInvoice .prefix,.shoptime-bannerStyle8 .priceInvoice .text {
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.shoptime-bannerStyle8 .parcel {
+    clear: both;
+    color: #faf0e1;
+    padding-top: 18px;
+}
+
+.shoptime-bannerStyle8 .parcel .parcelas {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.shoptime-bannerStyle8 .parcel .decimal,.shoptime-bannerStyle8 .parcel .moeda,.shoptime-bannerStyle8 .parcel .unidade {
+    font-size: 18px;
+}
+
+.shoptime-bannerStyle8 .parcel .text {
+    font-size: 14px;
+}
+
+.shoptime-bannerStyle8 .inovice_price_off .salePrice,.shoptime-bannerStyle8 .parcel .prefix,.shoptime-bannerStyle8 .salePrice {
+    display: none;
+}
+
+.shoptime-bannerStyle8 .seal_km {
+    background: url(http://apps.shoptime.com.br/media/global/jquery.banners/img/shop/tag_km.png);
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    position: relative;
+    text-align: center;
+    margin-top: 24px;
+    float: left;
+    width: 150px;
+}
+
+.shoptime-bannerStyle8 .seal_km span {
+    color: #FFF;
+    font-size: 10px;
+    position: relative;
+    top: 1px;
+}
+.shoptime-bannerStyle13 {
+     font-family: klavikaregular;
+  width: 1004px;
+  height: 315px;
+}
+
+.shoptime-bannerStyle13 a {
+    width: 1004px;
+    height: 315px;
+    color: #666!important;
+}
+
+.shoptime-bannerStyle13 .image {
+    position: absolute;
+    top: 20px;
+    left: 345px;
+}
+.imagem_video{
+  position: absolute;
+
+}
+
+.shoptime-bannerStyle13 .information {
+    width: 280px;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.shoptime-bannerStyle13 .information .name {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.shoptime-bannerStyle13 .information .subtitle {
+    font-size: 15px;
+    text-align: left;
+    font-family: klavikalight;
+    font-style: italic;
+}
+
+.shoptime-bannerStyle13 .information .freight {
+    display: inline-block;
+    margin-right: 7px;
+    margin-top: 24px;
+    float: left;
+}
+
+.shoptime-bannerStyle13 .price {
+width: 280px;
+position: absolute;
+top: 125px;
+right: 15px!important;
+}
+.shoptime-bannerStyle13 .defaultPrice {
+    float: left;
+    font-size: 12px;
+    padding-top: 0;
+    margin-right: 20px;
+}
+.shoptime-bannerStyle13 .salePrice{
+  clear: both;
+  font-size: 14px;
+}
+.shoptime-bannerStyle13 .priceInvoice {
+    font-size: 32px;
+    float: left;
+    clear: both;
+}
+
+.shoptime-bannerStyle13 .priceInvoice .moeda,.shoptime-bannerStyle13 .priceInvoice .unidade {
+    color: #ff9c5a;
+    font-weight: 700;
+}
+.shoptime-bannerStyle13 .priceInvoice .prefix{
+  text-transform: uppercase;
+  font-weight: normal;
+  position: relative;
+  top: -25px;
+  font-size: 20px;
+
+}
+.shoptime-bannerStyle13 .priceInvoice .unidade{
+  font-size: 60px;
+}
+ .shoptime-bannerStyle13 .priceInvoice .decimal{
+position: relative;
+  top: -25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.shoptime-bannerStyle13 .priceInvoice .moeda{
+  position: relative;
+  top: -25px;  font-weight: normal;
+  font-size: 20px;
+}
+
+.shoptime-bannerStyle13 .priceInvoice .text {
+    font-size: 12px;
+}
+
+.shoptime-bannerStyle13 .parcel {
+    clear: both;
+    color: #ff9c5a;
+
+}
+
+.shoptime-bannerStyle13 .parcel .parcelas {
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.shoptime-bannerStyle13 .parcel .decimal,.shoptime-bannerStyle13 .parcel .moeda,.shoptime-bannerStyle13 .parcel .unidade {
+    font-size: 18px;
+}
+
+.shoptime-bannerStyle13 .parcel .text {
+    font-size: 14px;
+}
+
+
+
+.shoptime-bannerStyle13 .seal_km {
+    background: url(http://apps.shoptime.com.br/media/global/jquery.banners/img/shop/tag_km.png);
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    position: relative;
+    text-align: center;
+    margin-top: 24px;
+    float: left;
+    width: 150px;
+}
+
+.shoptime-bannerStyle13 .seal_km span {
+    color: #FFF;
+    font-size: 10px;
+    position: relative;
+    top: 1px;
+}
+
+#masterBanner .cartao-shop {
+
+}
+.shoptime-bannerStyle13 a {
+  width: 1004px;
+  height: 315px;
+  color: #fff!important;
+}
+
+
+.shoptime-bannerStyle13 .parceladocartao{
+  color: #fff;
+  font-size: 13px;
+  font-weight: bold;
+  width: 294px;
+  padding: 12px 0 0 65px;
+  border-top: 1px solid #a8c3ff;
+  background:url(bgcartaobanner.png) no-repeat 0 12px;
+  height: 70px;
+}
+.shoptime-bannerStyle13 .parceladocartao .porcentagemcartao{
+  font-weight: normal;
+}
+.shoptime-bannerStyle13 .parceladocartao .cartaoshoptime{
+  float: left;
+  width: 100%;
+}
+
+.shoptime-bannerStyle13 .information .name, .shoptime-bannerStyle13 .price, .shoptime-bannerStyle13 .parcel{
+  color: #fff!important;
+}
+.shoptime-bannerStyle13 .priceInvoice .decimal, .shoptime-bannerStyle13 .priceInvoice .moeda, .shoptime-bannerStyle13 .priceInvoice .unidade{
+  color: #fff!important;
+}

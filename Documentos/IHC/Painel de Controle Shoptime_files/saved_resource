@@ -1,0 +1,32 @@
+mmcore.SetCookie('mmid','1263761537|JgAAAAqjj7rUEgwAAA==',365,1);mmcore.SetCookie('pd','407924286|UgAAAAoBQqOPutQSDCVlIWoFAHs8ZtDgedJIDwAAAMOuoWUFeNJIAAAAAP//////////ABN3d3cuc2hvcHRpbWUuY29tLmJyAhIMBQAAAAAAAAAAAABrSQAAbEkAADpLAAADAP8rAAAAhCJ+uhIMAP////8BEgwVDP//GAAAAQAAAAABLHEAADfjAAAAQzgAAABCYlwJFQwA/////wEVDBUM//8BAAABAAAAAAEVjgAAn98AAAJrSQAAAQAAAGxJAAABAAAA5zgAAABJOs0CFQwA/////wEVDBUM//8FAAAB0d+yrwEwjwAA5uEAAAE6SwAAAQAAAAAAAAFF',365);mmcore.SetCookie('srv','nycvwcgus09',365);(function(){if(typeof(mmcore.GenInfo)!='object')mmcore.GenInfo={};mmcore.EH=function(e){var s=e.message+'\r\n';if(!window.mm_error)window.mm_error=s;else window.mm_error+=s;};
+mmcore.GenInfo['SH_Cross_MC']={'element1':'sh_cross_1_t29'};
+try{
+mmcore.AddDocLoadHandler(function () {
+  var model = {
+    page : "SH_PageT29"
+    };
+  
+  var controller = {
+    init: function() {
+      if (location.href.indexOf("carrinho.shoptime.com.br/checkout/choosePayment.xhtml") > -1 || location.href.indexOf("carrinho.shoptime.com.br/checkout/prepareFreightOptions.xhtml") > -1) {
+      	mmcore.SetPersCriterion("SH26QtdFrete",jQuery(".shpList").find("li").length);
+      }
+      
+      if (location.href.indexOf("carrinho.shoptime.com.br/checkout/choosePayment.xhtml") > -1 || location.href.indexOf("carrinho.shoptime.com.br/checkout/prepareFreightOptions.xhtml") > -1 || location.href.indexOf("carrinho.shoptime.com.br/checkout") > -1) {
+        this.setPage();
+      }
+    },
+    setPage: function() {
+      mmcore._async = true;
+      mmcore.SetPageID(model.page);
+      mmcore.CGRequest();
+    }
+  };
+
+  controller.init();
+
+});
+}catch(err){mmcore.EH(err);}
+if(typeof mmcore._callback=='object'&&typeof mmcore._callback[2]=='function'){try{mmcore._callback[2]();}catch(err){mmcore.EH(err);}
+finally{mmcore._callback[2]=null;}}
+})();

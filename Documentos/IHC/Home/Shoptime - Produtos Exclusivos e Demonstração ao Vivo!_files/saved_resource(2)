@@ -1,0 +1,68 @@
+mmcore.SetCookie('mmid','135498455|IAAAAAqjj7rUEgwAAA==',365,1);mmcore.SetCookie('pd','1624378280|RQAAAAoBQqOPutQSDCVlIWoFANNScofgedJIDwAAAMOuoWUFeNJIAAAAAP//////////ABN3d3cuc2hvcHRpbWUuY29tLmJyAhIMBQAAAAAAAAAAAABrSQAAbEkAADpLAAADAP8rAAAAhCJ+uhIMAP////8BEgwVDP//EQAAAQAAAAABLHEAADfjAAAAQzgAAABCYlwJFQwA/////wEVDBUM//8BAAABAAAAAAEVjgAAn98AAAJrSQAAAQAAAGxJAAABAAAA5zgAAABJOs0CFQwA/////wEVDBUM//8DAAAB0d+yrwEwjwAA5uEAAAE6SwAAAQAAAAAAAAFF',365);mmcore.SetCookie('srv','nycvwcgus09',365);(function(){if(typeof(mmcore.GenInfo)!='object')mmcore.GenInfo={};mmcore.EH=function(e){var s=e.message+'\r\n';if(!window.mm_error)window.mm_error=s;else window.mm_error+=s;};
+try{
+mmcore.AddDocLoadHandler(function () {
+
+  var url = location.href,
+      page = "SH_GarantiaTSAL";
+  function contains(url) {
+    var page,
+        pages = {
+          warranty : /shoptime\.com\.br\/produto\/garantia\/(.*)/
+        };
+
+    for (page in pages) {
+      if (pages.hasOwnProperty(page) && pages[page].test(url)) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  function getCookie(name) {
+    var re = new RegExp(name + "=([^;]+)");
+    var value = re.exec(document.cookie);
+    return (value != null) ? unescape(value[1]) : null;
+  }
+
+  function setPage(page) {
+      mmcore._async = true;
+      mmcore.SetPageID(page);
+      mmcore.CGRequest();
+  }
+
+  if (getCookie("acomChannel") !== "TSAL" && getCookie("acomChannel") !== "TELEVENDAS") {
+
+    if (contains(url)) {
+      setPage(page);
+    }
+
+  }
+});
+}catch(err){mmcore.EH(err);}
+try{
+mmcore.AddDocLoadHandler(function () {
+  var testPage = "SHQA_T0",
+    isInPage = location.href.indexOf("http://www.shoptime.com.br/central-de-atendimento") > -1;
+
+  function getCookie(name) {
+    var re = new RegExp(name + "=([^;]+)");
+    var value = re.exec(document.cookie);
+    return (value != null) ? unescape(value[1]) : null;
+  }
+
+  function setPage(page) {
+    mmcore._async = true;
+    mmcore.SetPageID(page);
+    mmcore.CGRequest();
+  }
+
+  if (getCookie("acomChannel") !== "TSAL" && getCookie("acomChannel") !== "TELEVENDAS") {
+    if ( isInPage ){
+      setPage(testPage);
+    }
+  } 
+});
+}catch(err){mmcore.EH(err);}
+if(typeof mmcore._callback=='object'&&typeof mmcore._callback[4]=='function'){try{mmcore._callback[4]();}catch(err){mmcore.EH(err);}
+finally{mmcore._callback[4]=null;}}
+})();

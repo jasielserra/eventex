@@ -1,0 +1,69 @@
+.mMenu .hDept .r1, .mMenu .hDept .r2{background-image: url(http://img.shoptime.com.br/catalog/skins/skin-temp/img/header-temp.png);}
+.mMenu {height: 3.2em;padding: 0 0 0 12.5em;position: relative;}/* (linha 99) modificado o padding right */
+.mMenu .hDept{margin:0 0 0 -1px;}/* linha 114  retirado margin:0 0 0 -5px;*/
+.mMenu .hDept li.li {display: table-cell;padding: 10px 22px;}/* linha 120 modificado o padding*/
+.mMenu .hDept td.li{padding:7px 22px 0;}/* linha 123 modificado o padding*/
+.mMenu .hDept .r1{background-position: -212px 0;}/* linha 130 reposicionamento do canto */
+.mMenu .hDept .r2 {background-position: -212px -9px;}/* linha 131 reposicionamento do canto */
+.mMenu .hDept {padding:0;} /* linha 114 - retirado padding */
+.mMenu .hDept .li {background-image:url(http://img.shoptime.com.br/catalog/skins/skin-temp/img/header-temp.png);}/* linha 124 - modificando a imagem pois está em png 24 - sendo assim n funcionando no ie6 */
+.hover .showAll .r2{background:none;}
+.hover .hDept .r3{background: url(http://img.shoptime.com.br/catalog/skins/skin-temp/img/header-temp.png) no-repeat -174px -25px;display:block;} /* linha nova*/
+.aviagens {background: url(http://img.shoptime.com.br/imagens/home-d/menu-expansivel/viagens-exp.png) no-repeat 7px top; display:block; overflow:hidden; height:34px; width:100px;}
+.spanviagens {display:none;}
+.aviagens .ico arrow {margin-top:8px;}
+.allDpt .dpts .col {width:20%;}
+.allDpt .dpts .col .col2 {width:12%;}
+.mMenu .allDpt .brands {text-align:center;}
+
+/* ul - hDept */
+
+/* remover do css components */
+/* 
+.mMenu .shopTv (linha 126) - deletar
+
+compoenents do .shopTv(linha 126/127/128) - 
+de         - .mMenu .hDept .r1, .mMenu .hDept .r2, .mMenu .shopTv .r3,.mMenu .shopTv .r4
+deve virar - .mMenu .hDept .r1, .mMenu .hDept .r2
+
+cantos arredondados da aba shopTv - .mMenu .shopTv .r3 / .mMenu .shopTv .r4 {linhas 132/133} - deletar
+
+de       -    .hover .hDept .r3, .hover .hDept .r4 {display: none;}
+para     -    .hover .hDept .r4 {display: none;}
+*/
+
+/* mudancas no html */
+
+/* no html sera deletado os seguintes elementos */
+/*  
+a "li" do tvShoptime e seus "spans" posicionados para os cantos arredondados:
+<li class="li shopTv"><a href="/TVShoptime">TV Shoptime</a><span class="r3">&nbsp;</span><span class="r4">&nbsp;</span></li> 
+*/
+
+/* adicionar no html */
+/* 
+adicionar uma nova "li" na lista interna da (li hDept)
+
+serao agora 6 itens na aba - respectivamente:
+Informatica
+Eletrodomesticos
+Eletroportateis
+Utilidades Domesticas
+Cama, Mesa &amp; Banho
+Eletronicos - novo
+ */
+
+/* adicionar ao html */
+/* No menu expansivel foi substituido o titulo de viagens por uma imagem*/
+
+/* novo botao de nanual do produto */
+.hproduct .rPdf{margin:-5px 0 20px 0;}
+.hproduct .rPdf .arrow2{display:none;}
+.hproduct .rPdf a{display:block;overflow:hidden;font-size:0;line-height:0;width:245px;padding-top:41px;background:url(http://img.shoptime.com.br/catalog/skins/skin-temp/img/bt_manualProduto.png) no-repeat;margin-left:20px;}
+
+/*19/10/12 - Modificacao Menu - Aumento na largura das colunas do menu para incluir Natal*/
+#header .dpts{padding: 0 0 10px 40px;}
+.mMenu .allDpt .sections .dpts .col {width: 21.5%;}
+.mMenu .allDpt .sections .dpts .col2 {width: 13%;}
+.mMenu .allDpt .brands .logo {margin: 0 60px 0 0;}
+.mMenu .allDpt .brands strong {margin-right: 20px;}

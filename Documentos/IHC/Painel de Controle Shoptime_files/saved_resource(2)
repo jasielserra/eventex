@@ -1,0 +1,561 @@
+mmcore.SetCookie('mmid','1751631639|JwAAAAqjj7rUEgwAAA==',365,1);mmcore.SetCookie('pd','1258259533|VAAAAAoBQqOPutQSDCVlIWoFACsD4tDgedJIDwAAAMOuoWUFeNJIAAAAAP//////////ABN3d3cuc2hvcHRpbWUuY29tLmJyAhIMBQAAAAAAAAAAAABrSQAAbEkAADpLAAADAP8rAAAAhCJ+uhIMAP////8BEgwVDP//GQAAAQAAAAABLHEAADfjAAAAQzgAAABCYlwJFQwA/////wEVDBUM//8BAAABAAAAAAEVjgAAn98AAAJrSQAAAQAAAGxJAAABAAAA5zgAAABJOs0CFQwA/////wEVDBUM//8GAAAB0d+yrwEwjwAA5uEAAAE6SwAAAQAAAAAAAAFF',365);mmcore.SetCookie('srv','nycvwcgus09',365);(function(){if(typeof(mmcore.GenInfo)!='object')mmcore.GenInfo={};mmcore.EH=function(e){var s=e.message+'\r\n';if(!window.mm_error)window.mm_error=s;else window.mm_error+=s;};
+mmcore.GenInfo['SH_Cross_MC']={'element1':'sh_cross_1_t29'};
+mmcore.GenInfo['SH_Cross_1_T29']={'sht29':'optioneconomica'};
+var tc={'SHT29':{'h':[],'c':[],'l':[]}}
+mmcore.AttachStyle=function(t){if(document.body){var s=document.createElement('style');s.type='text/css';if(/WebKit|MSIE/i.test(navigator.userAgent)){if(s.styleSheet){s.styleSheet.cssText=t;}else{s.innerText=t;}}else{s.innerHTML=t;}document.getElementsByTagName('head')[0].appendChild(s);}else{document.write('<style type="text/css">'+t+'</style>');}}
+tc['SHT29'].h.push(unescape('<!--%2F********* SH_Cross_1_T29 ******************%2F%2F*Data: 01%2F06%2F2015Des' + 
+ 'envolvedor: Danilo MullerResumo do Teste:Observações:*%2F%2F************' + 
+ '*******************************%2F--><!--  Markup   HTML-->'));tc['SHT29'].c.push(unescape('  %2F* =========================================================================' + 
+ '     Carrinho     ======================================================' + 
+ '=================== *%2F  %2F* Frete     ===============================' + 
+ '========================================== *%2F  .shpBox .tp1 {    posit' + 
+ 'ion: relative;    width: 140px;    text-decoration: underline;    cursor' + 
+ ': pointer;  }  .shpBox .tp1:hover .tooltip-freight {    display: block; ' + 
+ ' }  %2F* Tooltip     ===================================================' + 
+ '====================== *%2F  .tooltip {    position: absolute;    box-sh' + 
+ 'adow: 0 0 10px rgba(0,0,0,0.2);    text-align: left;    text-transform: ' + 
+ 'none;    display: none;  }  .tooltip-content {    padding: 10px;    colo' + 
+ 'r: #828282;    background-color: #fff;  }  .tooltip p {    margin: 0;  }' + 
+ '  %2F* Frete Selecionado *%2F  .tooltip-freight {    right: 107%25;    b' + 
+ 'ottom: 20%25;    width: 499px;    font-weight: bold;  }  .tooltip-freigh' + 
+ 't:after {    content: %22 %22;    position: absolute;    bottom: 13%25; ' + 
+ '   left: 100%25;    background: transparent url(%2F%2Fservice.maxymiser.' + 
+ 'net%2Fcm%2Fimages-us%2F1%2F1%2F2%2FF72CAE22E6D452C4CDEB37232F84B4E53B6F0' + 
+ '59A8D0EDC245D170506AFC4117D%2Fsubmarino-com-br%2FSH-Cross-1-T29%2FSprite' + 
+ 'T29-v2.png) no-repeat 0 0 scroll;    background-position: -128px -6px;  ' + 
+ '  width: 13px;    height: 25px;  }  %2F* Frete alterado com sucesso *%2F' + 
+ '  .tooltip-new-freight {    right: 130%25;    bottom: -57%25;    width: ' + 
+ '200px;    display: block;    font-weight: bold;  }  .tooltip-new-freight' + 
+ ':after {    content: %22 %22;    position: absolute;    bottom: 13%25;  ' + 
+ '  left: 100%25;    background: transparent url(%2F%2Fservice.maxymiser.n' + 
+ 'et%2Fcm%2Fimages-us%2F1%2F1%2F2%2FF72CAE22E6D452C4CDEB37232F84B4E53B6F05' + 
+ '9A8D0EDC245D170506AFC4117D%2Fsubmarino-com-br%2FSH-Cross-1-T29%2FSpriteT' + 
+ '29-v2.png) no-repeat 0 0 scroll;    background-position: -128px -6px;   ' + 
+ ' width: 13px;    height: 25px;  }  %2F* ================================' + 
+ '=========================================     Página de Pagamento     ==' + 
+ '======================================================================= ' + 
+ '*%2F  %2F* Dados da compra     =========================================' + 
+ '================================ *%2F  .col01Freight,  #freightInfo {   ' + 
+ ' display: inline-block;    margin-bottom: 8px;  }  #freightInfo {    pos' + 
+ 'ition: relative;  }  %2F* Tipo de Frete     ============================' + 
+ '============================================= *%2F  %2F* .shpListMod é a' + 
+ ' classe base que modifica todo o comportamento de   * layout do tipo de ' + 
+ 'frete.   *%2F  .shpListMod {    padding: 0;    border: 0;    margin-bott' + 
+ 'om: 20px;  }  %2F* Título da área *%2F  .shpListMod .topBox01 {    paddi' + 
+ 'ng-left: 11px;  }  %2F* Lista de fretes *%2F  .shpListMod .shpList {    ' + 
+ 'padding-left: 0;    margin: 0 -5px;  }  %2F* Resetar estilos para trabal' + 
+ 'har do zero *%2F  .shpListMod .shpList li.first,  .shpListMod .shpList l' + 
+ 'i.last {    margin: 0;    padding: 0;    bottom: 0;  }  %2F* Retira over' + 
+ 'flow para colocar a flag na entrega *%2F  .shpListMod .box11,  .shpListM' + 
+ 'od .shpList { overflow: visible; }  %2F* Reseta estilos da lista para ma' + 
+ 'ntê-la compatível com o IE 7+ *%2F  .shpListMod .shpList li {    border:' + 
+ ' 0 none;    margin: 0;    padding: 0;    display: inline;  }  %2F* Box p' + 
+ 'rincipal onde ficam todos os estilos novos *%2F  .shpListMod .dlvTpBox {' + 
+ '    position: relative;    padding: 20px 10px 10px;    border: 1px solid' + 
+ ' #e0e0e0;    margin: 0 5px;    border-radius: 10px;    min-height: 74px;' + 
+ '  }  %2F* Box com o frete selecionado *%2F  .shpListMod .dlvTpBox-select' + 
+ 'ed { border-width: 2px; }  %2F* Tipo de frete *%2F  .shpListMod .dlvType' + 
+ 's .nm {    margin-bottom: 10px;  }  %2F* Tempo de entrega do frete escol' + 
+ 'hido *%2F  .shpListMod .dlvTypes .dlTypeInfo .tp1 {    font-size: 1.3em;' + 
+ '  }  %2F* Preço do frete *%2F  .shpListMod .dlvTypes .dlTypeInfo .tp2 { ' + 
+ '   margin-bottom: 3px;  }  %2F* Checkbox *%2F  .shpListMod .dlvTypes .sl' + 
+ 't {    margin: 10px 8px 0;  }  %2F* Flag do shop *%2F  .shpFlag {    bac' + 
+ 'kground: transparent url(%2F%2Fservice.maxymiser.net%2Fcm%2Fimages-us%2F' + 
+ '1%2F1%2F2%2FF72CAE22E6D452C4CDEB37232F84B4E53B6F059A8D0EDC245D170506AFC4' + 
+ '117D%2Fsubmarino-com-br%2FSH-Cross-1-T29%2FSpriteT29-v2.png) no-repeat 0' + 
+ ' 0 scroll;    position: absolute;  }  .shpFlag-quick {    bottom: 92%25;' + 
+ '    left: 28%25;    background-position: -7px -15px;    width: 110px;   ' + 
+ ' height: 15px;  }  %2F* Km de Vantagens     ============================' + 
+ '============================================= *%2F  .ipirangaKmVantagens' + 
+ ' { margin-bottom: 20px; }'));tc['SHT29'].h.push('');tc['SHT29'].h.push('');
+try{
+if ( mmcore.GetCookie('SHCookieT29') == "" ) { 
+  mmcore.SetCookie('SHCookieT29','ativo', 0); 
+}
+}catch(err){mmcore.EH(err);}
+try{
+function Metrics(testName, actionName, isDebugging) {
+      this.testName = testName;
+      this.actionName = actionName;
+      this.isDebugging = arguments.length < 3 ? false : isDebugging;
+    }
+  
+    Metrics.prototype.action = function(attribute) {
+      var that = this;
+      attribute = !!attribute ? attribute : "";
+      return function() {
+        if(that.isDebugging) {
+          that.debug(attribute);
+        }
+        mmcore.SendUniqueAttribute(that.testName, that.actionName, 1, attribute);
+        mmcore.SetPageID("mmevents");
+        mmcore._async = true;
+        mmcore.CGRequest();
+      };
+    };
+  
+    Metrics.prototype.debug = function(attribute) {
+      console.log('Action ' + this.actionName + ' com attributo "' + attribute + '" foi registrada');
+    };
+
+
+mmcore.AddDocLoadHandler(function(){
+    var metric = new Metrics("SH_Cross_1_T29", "SH29PG_FreteSelec"),
+    actions = {
+      convencional: metric.action("Entrega Convencional"),
+      rapida: metric.action("Entrega Rapida"),
+      expressa: metric.action("Entrega Expressa"),
+      agendada: metric.action("Entrega Agendada")
+    };
+
+    (function($){
+       jQuery('.entConv input').on("click", actions.convencional);
+       jQuery('.entFast input').on("click", actions.rapida);
+       jQuery('.entExps input').on("click", actions.expressa);
+       jQuery('.entAgend input').on("click", actions.agendada);
+    })(jQuery);
+});
+}catch(err){mmcore.EH(err);}
+try{
+function Metrics(testName, actionName, isDebugging) {
+      this.testName = testName;
+      this.actionName = actionName;
+      this.isDebugging = arguments.length < 3 ? false : isDebugging;
+    }
+  
+    Metrics.prototype.action = function(attribute) {
+      var that = this;
+      attribute = !!attribute ? attribute : "";
+      return function() {
+        if(that.isDebugging) {
+          that.debug(attribute);
+        }
+        mmcore.SendUniqueAttribute(that.testName, that.actionName, 1, attribute);
+        mmcore.SetPageID("mmevents");
+        mmcore._async = true;
+        mmcore.CGRequest();
+      };
+    };
+  
+    Metrics.prototype.debug = function(attribute) {
+      console.log('Action ' + this.actionName + ' com attributo "' + attribute + '" foi registrada');
+    };
+
+    
+mmcore.AddDocLoadHandler(function(){
+    var metric = new Metrics("SH_Cross_1_T29", "SH29PG_FreteConfirm");
+    (function($){
+       jQuery('.btFinish').on("click", function(){
+        metric.action(jQuery('.shpList li input[checked="checked"]').parent().find('.dlCont strong').text().trim())();
+       });
+    })(jQuery);
+});
+}catch(err){mmcore.EH(err);}
+try{
+function Metrics(testName, actionName, isDebugging) {
+      this.testName = testName;
+      this.actionName = actionName;
+      this.isDebugging = arguments.length < 3 ? false : isDebugging;
+    }
+  
+    Metrics.prototype.action = function(attribute) {
+      var that = this;
+      attribute = !!attribute ? attribute : "";
+      return function() {
+        if(that.isDebugging) {
+          that.debug(attribute);
+        }
+        mmcore.SendUniqueAttribute(that.testName, that.actionName, 1, attribute);
+        mmcore.SetPageID("mmevents");
+        mmcore._async = true;
+        mmcore.CGRequest();
+      };
+    };
+  
+    Metrics.prototype.debug = function(attribute) {
+      console.log('Action ' + this.actionName + ' com attributo "' + attribute + '" foi registrada');
+    };
+
+
+mmcore.AddDocLoadHandler(function(){
+    var metric = new Metrics("SH_Cross_1_T29", "SH29PG_PagtoConfirm");
+  
+    (function($){
+       function payment(paymentMethod){
+          switch(paymentMethod) {
+              case "brandCardAnchor":
+                  return "Cartão Shop";
+              break;
+              case "creditCard":
+                  return "Cartão de Crédito";
+              break;
+              case "bill":
+                  return "Boleto Bancário";
+              break;
+              case "bankline":
+                  return "Bankline";
+              break;
+              default:
+                  return "";
+              break;
+          }
+      }
+      
+      $("body").on("click", ".btFinish", function(){
+          $(".payOpts").find("li").children("a").each(function(){
+              var $this = $(this),
+                  paymentMethod;
+              if($this.hasClass("selected")){
+                  console.log("Selecionado" + $this.attr("id"));
+                  paymentMethod = $this.attr("id") ? $this.attr("id") : "creditCard";
+                  metric.action(payment(paymentMethod))();
+              }
+          });
+      });
+    })(jQuery);
+});
+}catch(err){mmcore.EH(err);}
+try{
+function Metrics(testName, actionName, isDebugging) {
+      this.testName = testName;
+      this.actionName = actionName;
+      this.isDebugging = arguments.length < 3 ? false : isDebugging;
+    }
+  
+    Metrics.prototype.action = function(attribute) {
+      var that = this;
+      attribute = !!attribute ? attribute : "";
+      return function() {
+        if(that.isDebugging) {
+          that.debug(attribute);
+        }
+        mmcore.SendUniqueAttribute(that.testName, that.actionName, 1, attribute);
+        mmcore.SetPageID("mmevents");
+        mmcore._async = true;
+        mmcore.CGRequest();
+      };
+    };
+  
+    Metrics.prototype.debug = function(attribute) {
+      console.log('Action ' + this.actionName + ' com attributo "' + attribute + '" foi registrada');
+    };
+
+
+mmcore.AddDocLoadHandler(function(){
+    var metric = new Metrics("SH_Cross_1_T29", "SH29PG_ArTopo"),
+    actions = {
+      meucarrinho: metric.action("Sacola"),
+      ident: metric.action("Identificação"),
+      entrega: metric.action("Endereço")
+    };
+
+    (function($){
+       jQuery('.chSteps .step01 a').on("click", actions.meucarrinho);
+       jQuery('.chSteps .step02 a').on("click", actions.ident);
+       jQuery('.chSteps .step03 a').on("click", actions.entrega);
+    })(jQuery);
+});
+}catch(err){mmcore.EH(err);}
+try{
+function Metrics(testName, actionName, isDebugging) {
+      this.testName = testName;
+      this.actionName = actionName;
+      this.isDebugging = arguments.length < 3 ? false : isDebugging;
+    }
+  
+    Metrics.prototype.action = function(attribute) {
+      var that = this;
+      attribute = !!attribute ? attribute : "";
+      return function() {
+        if(that.isDebugging) {
+          that.debug(attribute);
+        }
+        mmcore.SendUniqueAttribute(that.testName, that.actionName, 1, attribute);
+        mmcore.SetPageID("mmevents");
+        mmcore._async = true;
+        mmcore.CGRequest();
+      };
+    };
+  
+    Metrics.prototype.debug = function(attribute) {
+      console.log('Action ' + this.actionName + ' com attributo "' + attribute + '" foi registrada');
+    };
+
+
+mmcore.AddDocLoadHandler(function(){
+    var metric = new Metrics("SH_Cross_1_T29", "SH29PG_ArEndereço"),
+    actions = {
+      alterar: metric.action("Alterar endereço"),
+      revisar: metric.action("Revisar endereço")
+    };
+
+    (function($){
+       jQuery('.btChAddress').on("click", actions.alterar);
+       jQuery('.btReviseAddress').on("click", actions.revisar);
+    })(jQuery);
+});
+}catch(err){mmcore.EH(err);}
+try{
+function Metrics(testName, actionName, isDebugging) {
+      this.testName = testName;
+      this.actionName = actionName;
+      this.isDebugging = arguments.length < 3 ? false : isDebugging;
+    }
+  
+    Metrics.prototype.action = function(attribute) {
+      var that = this;
+      attribute = !!attribute ? attribute : "";
+      return function() {
+        if(that.isDebugging) {
+          that.debug(attribute);
+        }
+        mmcore.SendUniqueAttribute(that.testName, that.actionName, 1, attribute);
+        mmcore.SetPageID("mmevents");
+        mmcore._async = true;
+        mmcore.CGRequest();
+      };
+    };
+  
+    Metrics.prototype.debug = function(attribute) {
+      console.log('Action ' + this.actionName + ' com attributo "' + attribute + '" foi registrada');
+    };
+
+    
+mmcore.AddDocLoadHandler(function(){
+    var metric = new Metrics("SH_Cross_1_T29", "SH29PG_Cupom"),
+    actions = {
+      cupom: metric.action("Cupom")
+    };
+
+    (function($){
+       jQuery('.bTon.sizeM').on("click", actions.cupom);
+    })(jQuery);
+});
+}catch(err){mmcore.EH(err);}
+try{
+function Metrics(testName, actionName, isDebugging) {
+      this.testName = testName;
+      this.actionName = actionName;
+      this.isDebugging = arguments.length < 3 ? false : isDebugging;
+    }
+  
+    Metrics.prototype.action = function(attribute) {
+      var that = this;
+      attribute = !!attribute ? attribute : "";
+      return function() {
+        if(that.isDebugging) {
+          that.debug(attribute);
+        }
+        mmcore.SendUniqueAttribute(that.testName, that.actionName, 1, attribute);
+        mmcore.SetPageID("mmevents");
+        mmcore._async = true;
+        mmcore.CGRequest();
+      };
+    };
+  
+    Metrics.prototype.debug = function(attribute) {
+      console.log('Action ' + this.actionName + ' com attributo "' + attribute + '" foi registrada');
+    };
+
+    
+mmcore.AddDocLoadHandler(function(){
+    var metric = new Metrics("SH_Cross_1_T29", "SH29PG_btcarrinho"),
+    actions = {
+      btcomprarapida: metric.action("Bt Compra Rapida"),
+      btconcluir: metric.action("Bt Concluir Compra")
+    };
+
+    (function($){
+       jQuery('.buttons1Click .bt1Click').on("click", actions.btcomprarapida);
+       jQuery('.buttons1Click .btCont4').on("click", actions.btconcluir);
+    })(jQuery);
+});
+
+}catch(err){mmcore.EH(err);}
+try{
+function Metrics(testName, actionName, isDebugging) {
+      this.testName = testName;
+      this.actionName = actionName;
+      this.isDebugging = arguments.length < 3 ? false : isDebugging;
+    }
+  
+    Metrics.prototype.action = function(attribute) {
+      var that = this;
+      attribute = !!attribute ? attribute : "";
+      return function() {
+        if(that.isDebugging) {
+          that.debug(attribute);
+        }
+        mmcore.SendUniqueAttribute(that.testName, that.actionName, 1, attribute);
+        mmcore.SetPageID("mmevents");
+        mmcore._async = true;
+        mmcore.CGRequest();
+      };
+    };
+  
+    Metrics.prototype.debug = function(attribute) {
+      console.log('Action ' + this.actionName + ' com attributo "' + attribute + '" foi registrada');
+    };
+
+mmcore.AddDocLoadHandler(function(){
+    var metric = new Metrics("SH_Cross_1_T29", "SH29C_Carrinho"),
+    actions = {
+      frete: metric.action("Frete"),
+      produto: metric.action("Produto"),
+      retirar: metric.action("Retirar"),
+      escolher: metric.action("Escolher mais produtos")
+    };
+
+    (function($){
+       jQuery('.calcFrt a').on("click", actions.frete);
+       jQuery('.hproduct a').on("click", actions.produto);
+       jQuery('.btRemove').on("click", actions.retirar);
+       jQuery('.btCont.rewind').on("click", actions.escolher);
+    })(jQuery);
+});
+}catch(err){mmcore.EH(err);}
+try{
+function Metrics(testName, actionName, isDebugging) {
+      this.testName = testName;
+      this.actionName = actionName;
+      this.isDebugging = arguments.length < 3 ? false : isDebugging;
+    }
+  
+    Metrics.prototype.action = function(attribute) {
+      var that = this;
+      attribute = !!attribute ? attribute : "";
+      return function() {
+        if(that.isDebugging) {
+          that.debug(attribute);
+        }
+        mmcore.SendUniqueAttribute(that.testName, that.actionName, 1, attribute);
+        mmcore.SetPageID("mmevents");
+        mmcore._async = true;
+        mmcore.CGRequest();
+      };
+    };
+  
+    Metrics.prototype.debug = function(attribute) {
+      console.log('Action ' + this.actionName + ' com attributo "' + attribute + '" foi registrada');
+    };
+
+    
+mmcore.AddDocLoadHandler(function(){
+    var metric = new Metrics("SH_Cross_1_T29", "SH29C_Topo"),
+    actions = {
+      logo: metric.action("Logo"),
+      linktopo: metric.action("Links Topo"),
+      busca: metric.action("Busca"),
+      login: metric.action("Login"),
+      cesta: metric.action("Cesta"),
+      menu: metric.action("Menu"),
+      linkHori: metric.action("Link Horizontal"),
+      ofertadodia: metric.action("Oferta do Dia")
+    };
+
+    (function($){
+       jQuery('#logo-site').on("click", actions.logo);
+       jQuery('#shoptime-header-heldesk a').on("click", actions.linktopo);
+       jQuery('#header-search-submit').on("click", actions.busca);
+       jQuery('#header-userbox-container a').on("click", actions.login);
+       jQuery('#header-cart a').on("click", actions.cesta);
+       jQuery('.headernavlayer a').on("click", actions.menu);
+       jQuery('#header-mainnav #header-mainnav-all > a, #header-mainnav-aux > ul > li > a').on("click", actions.linkHori);
+       jQuery('#header-auxnav-button').on("click", actions.ofertadodia);
+    })(jQuery);
+});
+
+}catch(err){mmcore.EH(err);}
+var gs='';for(var i in tc)gs+=tc[i].c.join('');mmcore.AttachStyle(gs);mmcore._AddRenderer('SHT29',function(){var el=mmcore.GetMaxyboxNode('SHT29');var mm_inner_HTML='';mm_inner_HTML+=tc['SHT29'].h[0];mm_inner_HTML+=tc['SHT29'].h[1];try{
+
+mmcore.AddDocLoadHandler(function () {
+
+//Código do teste
+(function($){
+
+  // Página de pagamento
+  if(location.href.indexOf("carrinho.shoptime.com.br/checkout/choosePayment.xhtml") > -1 || location.href.indexOf("carrinho.shoptime.com.br/checkout/prepareFreightOptions.xhtml") > -1) {
+
+    // Adiciona classe para modificar todo o layout do tipo de frete.
+    $(".choseShip").addClass("shpListMod");
+
+    // Muda de lugar o link de saiba mais
+    $(".shpList").find(".cboxElement").each(function(){
+      var $this = $(this);
+      $this.insertAfter($this.parent().find(".dlTypeInfo"));
+    });
+
+    // Mudar a ordem dos fretes
+    // Entrega a jato
+    //$(".entFast").closest("li").appendTo(".shpList");
+    // Entrega Rápida
+    $(".entFast").closest("li").appendTo(".shpList");
+    // Entrega Convencional
+    $(".entConv").closest("li").appendTo(".shpList");
+    // Entrega Agendada
+    $(".entAgend").closest("li").appendTo(".shpList");
+
+    $(".shpList").find("input[type='radio']").each(function(){
+      var $this = $(this),
+        freightType = "";
+      if($this.is(":checked")) {
+        //console.log("Checado");
+        $this.closest(".dlvTpBox").addClass("dlvTpBox-selected");
+        freightType = $this.parent().attr("class").match(/dlvTypes\s(\S+)/)[1];
+        if(!!mmcore.GetCookie("SH29TipoFrete")) {
+          if (mmcore.GetCookie("SH29TipoFrete") !== freightType) {
+            //console.log("Frete Alterado com sucesso");
+            createFreightTooltip();
+          }
+        }
+        mmcore.SetCookie("SH29TipoFrete", freightType);
+      }
+    });
+
+
+    // Tooltip do frete
+    function createFreightTooltip() {
+      var templ = [
+        "<div class=\"tooltip tooltip-new-freight\">",
+        "<div class=\"tooltip-content\">",
+        "<p>O frete foi recalculado!</p>",
+        "</div>",
+        "</div>"
+      ];
+      $(templ.join("")).appendTo($("#freightInfo"));
+      setTimeout(function(){
+        $(".tooltip-new-freight").hide();
+      }, 5000);
+    }
+
+    // Troca o texto do frete para "Selecione o seu frete":
+    //$("#freightInfo").text("Selecione o seu frete");
+
+    // Colocar a flag
+    $(".entFast").append($("<div class=\"shpFlag shpFlag-quick\"></div>"));
+
+  }
+
+  // Carrinho (com frete calculado)
+  if(location.href.indexOf("carrinho.shoptime.com.br/checkout") > -1 && !$(".inpPostCd").length) {
+
+    var template = [
+      "<div class=\"tooltip tooltip-freight\">",
+      "<div class=\"tooltip-content\">",
+      "<p>Preço e prazo podem mudar com a compra de mais itens.</p>",
+      "<p>As opções finais de frete serão apresentadas no fechamento do pedido.</p>",
+      "</div>",
+      "</div>"
+    ];
+    $(".shpBox").find(".tp1").text("Frete Convencional:").append($(template.join("")));
+  }
+
+})(jQuery);
+
+});
+
+
+}catch(err){mmcore.EH(err);}
+mm_inner_HTML+=tc['SHT29'].h[2];if(el && typeof el.innerHTML!='undefined')el.innerHTML=mm_inner_HTML;});mmcore.HideMaxyboxes('SHT29');mmcore._RenderOnLoad();if(typeof mmcore._callback=='object'&&typeof mmcore._callback[4]=='function'){try{mmcore._callback[4]();}catch(err){mmcore.EH(err);}
+finally{mmcore._callback[4]=null;}}
+})();

@@ -1,0 +1,5 @@
+/* css home highlight video */
+#masterBanner .videoBanner{height:315px;margin-left:80px;background-repeat:no-repeat;}
+#masterBanner .media{padding:30px 20px 30px 20px;width:350px;float:left;}
+#masterBanner .description{width:445px;height:315px;float:left;}
+#masterBanner .desTxt{visibility:hidden;}

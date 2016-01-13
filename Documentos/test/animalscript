@@ -1,0 +1,6 @@
+#! /bin/bash
+# animalscript
+
+for ANIMAL in alce vaca ganso porco ; do
+    echo "I Have a $ANIMAL." 
+done

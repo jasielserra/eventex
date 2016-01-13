@@ -1,0 +1,19 @@
+#!/bin/bash
+# myos
+
+read -p "What is your favorite Operating System:?" opsys
+
+if [ $opsys = Mac ] ; then
+    echo "WTF, You are Jerk!!"
+
+elif [ $opsys =  Linux ] ; then
+    echo "Great Choice!" 
+
+elif [ $opsys = Windows ] ; then
+    echo "I used Windows once. What is that blue screen for?"
+
+else
+    echo "Is $myos an operating system?".
+fi
+
+

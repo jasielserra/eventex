@@ -1,0 +1,14 @@
+# !/bin/bash
+# myownscript
+# List some information about your current system.
+
+# TODAY=`date` 
+# MACHINE=`uname -n` 
+# echo "Today is $(TODAY)"
+# echo "You are in $(PWD) and your host is $(MACHINE)."
+
+
+
+echo "Today is $(date)."
+echo "You are in $(pwd) and your host is $(hostname)."
+

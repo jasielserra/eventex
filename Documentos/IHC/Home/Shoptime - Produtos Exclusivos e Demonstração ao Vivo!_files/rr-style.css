@@ -1,0 +1,493 @@
+/*GERAL*/
+  .limite{ 
+  width:1004px;
+  margin: 0 auto;
+  overflow: hidden;
+  }
+  
+  .left{
+  float:left;
+  }
+  
+  .right{
+  float:right;
+  }
+  
+  .both{
+  clear:both;
+  }
+  
+  .repla{
+  text-indent:-9999px;
+  display:block;
+  }
+  
+  #shoptimeComponenteRichRelevance{
+   margin: 25px 0;
+    }
+  
+  /*GERAL FIM*/
+  
+  /*TOPO*/
+  #rr-componente #rr-topo{
+  border-bottom: 1px dotted #ff9900;
+  overflow:hidden;
+  margin-bottom:10px;
+  }
+  
+  #rr-componente .rr-topo-txt{
+  font-size: 17px;
+    font-weight: bold;
+  }
+  
+  #rr-componente .rr-topo-bt{
+  font-size: 1.1em;
+    margin-top: 3px;
+    text-transform: uppercase;  
+  }
+  
+  #rr-topo .rr-arrow {
+  background: url(http://img.shoptime.com.br/rich-relevance/img/sprite-rich-relevance.png) no-repeat scroll 0 -2px rgba(0, 0, 0, 0);
+    height: 4px;
+    margin: 5px 0 0 0 !important;
+    text-indent: -9999px;
+    width: 10px;
+  }
+  
+  
+  /*TOPO FIM*/
+  
+  #template-rr{
+  margin: 0 auto;
+    overflow: hidden;
+    width: 700px;
+  height: 360px !important;
+  }
+  
+  #template-rr li{
+  color: #828282;
+    margin: 5px 35px;
+    width: 150px;
+  height:360px !important;
+  }
+  
+  #template-rr li a{
+  display:block;
+  /*height: 100%;*/
+  }
+  
+  #template-rr .imgProd{
+  width:150px;
+  height:auto;
+  margin: 5px;
+  }
+  
+  #template-rr .nameProd{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  }
+  
+  #template-rr .dePrice{
+  margin-bottom: 2px;
+  }
+  
+  #template-rr .dePriceValor{
+  text-decoration: line-through;
+  }
+
+  #template-rr .porPrice{
+  font-size: 15px;
+    font-weight: bold;
+  margin-bottom: 2px;
+  }
+  
+  #template-rr .prazoPrice{
+  color: #FF6600;
+  font-size: 13px;
+    }
+  
+  #rr-topo .rr-carrossel-hide{
+  color: #828282 !important;
+    cursor: pointer;
+    float: right;
+    font-size: 10px !important;
+    font-weight: normal !important;
+    padding-left: 30px;
+    padding-right: 10px;
+  text-transform: uppercase;
+  }
+  
+  #rr-topo .rr-carrossel-hide p{
+  float: left;
+    letter-spacing: -1px;
+    margin: 2px 3px 0 0;;
+  }
+  
+  
+  /*CARROSSEL*/
+  .image_carousel {
+  padding: 0;
+  position: relative;
+}
+.image_carousel #template-rr li{
+  display: block;
+  float: left;
+}
+a.prev, a.next {
+  background: url(http://img.shoptime.com.br/rich-relevance/img/sprite-rich-relevance.png) no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 25px;
+    position: absolute;
+    top: 160px;
+    width: 18px;
+}
+
+
+
+
+a.prev {
+  left: 10px;
+  background-position: 0 -42px;
+  }
+
+a.next {
+  right: 15px;
+  background-position: 0 -15px;
+  }
+
+a.prev.disabled, a.next.disabled {
+  cursor: default;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+a.prev span, a.next span {
+  display: none;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}
+
+
+#rr-recs li
+{
+	margin-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px #ccc solid;
+}
+
+#rr-recs li:last-child
+{
+	border-bottom: none;
+}
+/*CARROSSEL FIM*/
+
+
+
+.rr_container
+{
+	overflow: hidden;
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+
+.rr_container_5
+{
+	width: 1004px;
+}
+
+.rr_container_4
+{
+	width: 837px;
+}
+
+.rr_container_hinted
+{
+	float:left;
+	overflow: hidden;
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.rr_container_hinted_5
+{
+	width: 859px;
+}
+
+.rr_container_hinted_4
+{
+	width: 692px;
+}
+
+.rr_hint_div
+{
+	float:left;
+	width: 200px !important;
+	overflow: hidden;
+	position: relative;
+}
+
+.rr_div_title
+{
+	border-bottom: 1px dotted #ff9900;
+	overflow: hidden;
+	margin-bottom: 10px !important;
+	margin: 0;
+	padding: 0;
+}
+
+.rr_title
+{
+	font-size: 17px;
+	font-weight: bold;
+	float:left;
+	margin: 0;
+	padding: 0;
+}
+
+.rr_title_hint
+{
+	font-size: 17px;
+	font-weight: bold;
+	float:left;
+	padding: 0;
+	margin-top: 15px !important;
+}
+
+.rr_item_list
+{		
+	margin: 0;
+	padding:0;
+    overflow: hidden;
+  	height: 380px !important;
+}
+
+.rr_item
+{
+	display: block;
+	float: left;
+	margin: 0 24px !important;
+	color: #828282;
+	width: 140px;
+	min-height: 325px;
+	border: 0;
+}
+
+.rr_item a
+{
+	display:block;
+}
+
+.rr_item p
+{
+	margin: 0;
+}
+
+.rr_item_image_link
+{
+	height: 140px !important;
+}
+
+.rr_item_image
+{
+	width:140px;
+}
+
+.rr_item_freight
+{
+	margin-top: 5px !important;
+}
+  
+.rr_item_name
+{	
+	margin-bottom: 15px !important;
+	margin-top: 5px !important;
+}
+
+.rr_item_name_value
+{	
+	cursor: pointer;
+	text-decoration: none;
+	color: #828282;
+	border: 0;
+    margin-bottom: 10px !important;
+	margin-top: 5px !important;
+  	height: 42px !important;
+  	font-size: 1.1em;
+}
+
+.rr_item_name_value:hover
+{	
+	text-decoration: underline;
+  
+}
+
+.rr_item_sale_price 
+{
+    font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 2px !important;
+	height: 18px;
+}
+
+.rr_item_sale_price_value
+{
+    font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 2px !important;
+}
+
+.rr_item_price
+{
+	margin-bottom: 2px !important;
+	height: 12px;
+}
+
+.rr_item_price_value
+{
+	text-decoration: line-through;
+}
+
+.rr_item_installments
+{
+  color: #FF6600;
+  font-size: 13px;
+  height: 36px;
+}
+
+.rr_div_recs
+{
+	position:relative;
+	height:	380px;
+	float:	left;
+	margin:	auto;
+	overflow: hidden;
+}
+
+.rr_div_recs_5
+{
+	width:	944px;
+}
+
+.rr_div_recs_4
+{
+	width:	775px;
+}
+
+.rr_div_recs_hinted
+{
+	position:relative;
+	height:	380px;
+	float:	left;
+	margin:	auto;
+}
+
+.rr_div_recs_hinted_5
+{
+	width:	799px;
+}
+
+.rr_div_recs_hinted_4
+{
+	width:	654px;
+}
+
+.rr_div_arrow_left
+{
+	position: relative;
+	height: 380px;
+	float:	left;
+	width:	30px;
+	background-color: #ffffff;
+	z-index: 10;
+}
+
+.rr_div_arrow_right
+{
+	position: relative;
+	height: 380px;
+	float:	right;
+	width:30px;
+	background-color: #ffffff;
+}
+
+a.rr_arrow:hover
+{
+	cursor:pointer;
+}
+
+a.rr_arrow_left, a.rr_arrow_right {
+  background: url(http://img.shoptime.com.br/rich-relevance/img/sprite-rich-relevance.png) no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 25px;
+    position: absolute;
+    top: 60px;
+    width: 18px;
+}
+
+a.rr_arrow_left {
+  left: 10px;
+  background-position: 0 -42px;
+  }
+a.rr_arrow_right {
+  right: 0px;
+  background-position: 0 -15px;
+  }
+a.rr_arrow_left.disabled, a.rr_arrow_right.disabled {
+  cursor: default;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+a.rr_arrow_left span, a.rr_arrow_right span {
+  display: none;
+}
+
+.rr_item_text
+{
+	margin-bottom: 15px;
+	margin-top: 5px;
+}
+  
+.rr_item_add_link
+{
+	margin-top: 10px;
+}
+  
+.rr_item_rating
+{
+  height: 18px;
+}
+
+.rr_veja_mais
+{
+	display:inline !important;
+}
+
+.rr_card{position:relative;display:block;width:100%;height:47px;padding:0px 0px 0px 6px;margin:8px 0;background-color:#f2f2f2;text-align:left;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.rr_card_img_div{display:table-cell;width:37px;height:47px;padding-right:6px;vertical-align:middle;}
+.rr_card_img{width:37px;height:23px;}
+.rr_card_text_div{display:table-cell;height:47px;font-size:11px;vertical-align:middle;}
+.rr_card_text{display:block;}
+.rr_card_installments{display:block;}
+.rr_card_installment_value{font-size:11px;font-weight:bold;color:#fe9c5a;}
+
+.rr_item_mkt_opt
+{
+	cursor: pointer;
+	text-decoration: none;
+	color: #828282;
+	border: 0;
+    margin-bottom: 0px !important;
+	margin-top: 5px !important;
+  	height: 32px !important;
+  	font-size: 1.1em;
+}
+
+.rr_item_mkt_opt:hover
+{
+	text-decoration: underline;
+}
