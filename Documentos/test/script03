@@ -1,6 +1,0 @@
-#!/bin/bash
-
-STRING="FRIDAY"
-if [ "$STRING" != "Monday" ]; then
-    echo "At least it's not Monday"
-fi
